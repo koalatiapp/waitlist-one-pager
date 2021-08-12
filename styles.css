@@ -55,6 +55,7 @@ h1 + p { font-size: 1.1rem; }
 
 /* Header */
 header { margin-top: 1rem; margin-bottom: 1rem; }
+.logo-link img { width: auto; }
 .nav-link { display: inline-block; padding: 0.5em 1em; -webkit-transition: color 200ms ease; transition: color 200ms ease; color: #2751e6; opacity: .5; filter: saturate(0); transition: opacity .15s ease, filter .15s ease; }
 .nav-link:hover { color: #13204d; opacity: 1; filter: saturate(1); }
 
