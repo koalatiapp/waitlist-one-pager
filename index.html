@@ -111,5 +111,12 @@
 			</footer>
 		</div>
 
+		<script>
+			const pattern = new Image();
+			pattern.addEventListener('load', function() {
+				document.body.classList.add("pattern-ready");
+			});
+			pattern.src = "pattern-1920.png";
+		</script>
 	</body>
 </html>
