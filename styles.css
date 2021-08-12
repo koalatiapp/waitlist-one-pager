@@ -59,7 +59,7 @@ header { margin-top: 1rem; margin-bottom: 1rem; }
 .nav-link:hover { color: #13204d; opacity: 1; filter: saturate(1); }
 
 #hero { padding-top: 10vh; padding-bottom: 13vh; }
-.heading-highlight { color: #2751e6;  background-image: url("pattern-1920.png"); background-position: 0% 0%; background-size: cover; background-repeat: repeat; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; animation: hero-highlight-background 60s linear infinite; }
+.heading-highlight { color: #2751e6;  background-image: url("pattern-1920.png"); background-position: 0% 0%; background-size: cover; background-repeat: repeat; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; -webkit-box-decoration-break: clone; box-decoration-break: clone; animation: hero-highlight-background 60s linear infinite; }
 
 .form-wrapper { width: 500px; max-width: 100%; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-gray-light); }
 h2 { font-weight: 500; }
