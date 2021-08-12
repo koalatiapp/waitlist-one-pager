@@ -59,7 +59,7 @@ header { margin-top: 1rem; margin-bottom: 1rem; }
 .nav-link:hover { color: #13204d; opacity: 1; filter: saturate(1); }
 
 #hero { padding-top: 10vh; padding-bottom: 13vh; }
-.heading-highlight { color: #2751e6;  background-image: url("https://uploads-ssl.webflow.com/6114382d5af6775b0abebe2c/61143b8f65e8a9c56c9d1519_pattern-1920.png"); background-position: 0% 0%; background-size: auto; background-repeat: repeat; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; animation: hero-highlight-background 30s linear infinite; }
+.heading-highlight { color: #2751e6;  background-image: url("pattern-1920.png"); background-position: 0% 0%; background-size: cover; background-repeat: repeat; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; animation: hero-highlight-background 60s linear infinite; }
 
 .form-wrapper { width: 500px; max-width: 100%; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-gray-light); }
 h2 { font-weight: 500; }
@@ -78,7 +78,7 @@ button:hover { color: var(--button-text-color-hover, white); background-color: v
 #mce-responses .response#mce-error-response a { font-weight: 600; color: white; }
 
 .floating-screenshot { display: block; width: 90%; margin-right: auto; margin-bottom: -47vw; margin-left: auto; position: relative; z-index: 1; }
-.section-illustration { display: flex; align-items: flex-end; padding-top: 52vw; background-image: url("https://uploads-ssl.webflow.com/6114382d5af6775b0abebe2c/61143b8f65e8a9c56c9d1519_pattern-1920.png"); background-position: 50% 0%; background-size: cover; color: #13204d; box-sizing: border-box; }
+.section-illustration { display: flex; align-items: flex-end; padding-top: 52vw; background-image: url("pattern-1920.png"); background-position: 50% 0%; background-size: cover; color: #13204d; box-sizing: border-box; }
 
 footer { width: 100%; color: white;  margin-bottom: 15px; text-align: center; }
 
@@ -88,7 +88,7 @@ footer { width: 100%; color: white;  margin-bottom: 15px; text-align: center; }
 
 @keyframes hero-highlight-background {
 	0% { background-position: 0% 0%; }
-	100% { background-position: 0% 100%; }
+	100% { background-position: 0% 1000%; }
 }
 
 @media (max-width: 600px) {
