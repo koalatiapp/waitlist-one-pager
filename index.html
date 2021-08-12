@@ -44,6 +44,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 		<script defer data-domain="beta.koalati.com" src="https://plausible.io/js/plausible.js"></script>
+		<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 	</head>
 	<body>
 		<header class="header">
@@ -119,6 +120,12 @@
 				document.body.classList.add("pattern-ready");
 			});
 			pattern.src = "pattern-1920.png";
+
+			(function() {
+				document.querySelector('#mce-success-response').addEventListener("DOMNodeInserted", function() {
+					plausible("Waitlist signup");
+				}, true);
+			})();
 		</script>
 	</body>
 </html>
