@@ -78,7 +78,7 @@ button:hover { color: var(--button-text-color-hover, white); background-color: v
 #mce-responses .response#mce-error-response { color: white; background-color: var(--color-red); }
 #mce-responses .response#mce-error-response a { font-weight: 600; color: white; }
 
-.floating-screenshot { display: block; width: 90%; margin-right: auto; margin-bottom: -47vw; margin-left: auto; position: relative; z-index: 1; }
+.floating-screenshot { display: block; width: 90%; height: auto; margin-right: auto; margin-bottom: -47vw; margin-left: auto; position: relative; z-index: 1; }
 .section-illustration { display: flex; align-items: flex-end; padding-top: 52vw; background-image: url("pattern-1920.png"); background-position: 50% 0%; background-size: cover; color: #13204d; box-sizing: border-box; }
 
 footer { width: 100%; color: white;  margin-bottom: 15px; text-align: center; }
