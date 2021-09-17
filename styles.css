@@ -69,8 +69,8 @@ h2 { font-weight: 500; }
 label { font-size: 1rem; font-weight: 500; color: var(--color-gray-darker); }
 label .asterisk { color: var(--color-red); }
 .mc-field-group { position: relative; }
-button { display: flex; justify-content: center; align-items: center; padding: 16px 30px; font-family: inherit; font-size: 0.85rem; font-weight: 700; line-height: 1.3; text-decoration: none; text-align: center; color: #fff; background-color: var(--color-blue); border: none; border-radius: 13px; cursor: pointer; transition: background 0.25s ease 0s, box-shadow 0.25s ease 0s; }
-button:hover { color: var(--button-text-color-hover, white); background-color: var(--color-blue-faded); box-shadow: 0 3px 15px 0 rgba(var(--shadow-rgb), 0.25); }
+.button { display: inline-flex; justify-content: center; align-items: center; padding: 16px 30px; font-family: inherit; font-size: 0.85rem; font-weight: 700; line-height: 1.3; text-decoration: none; text-align: center; color: #fff; background-color: var(--color-blue); border: none; border-radius: 13px; cursor: pointer; transition: background 0.25s ease 0s, box-shadow 0.25s ease 0s; }
+.button:hover { color: var(--button-text-color-hover, white); background-color: var(--color-blue-faded); box-shadow: 0 3px 15px 0 rgba(var(--shadow-rgb), 0.25); }
 .inner-form { display: flex; justify-content: stretch; align-items: flex-end; gap: 1rem; }
 #mc_embed_signup #mce-EMAIL + div.mce_inline_error { padding: .5rem .75rem; font-size: .9rem; font-weight: 600; background-color: var(--color-red); border-radius: 8px; position: absolute; margin-top: 5px; }
 #mc_embed_signup #mce-EMAIL.mce_inline_error { border-color: var(--color-red); }
